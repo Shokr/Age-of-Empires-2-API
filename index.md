@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Age of Empires 2
 
-You can use the [editor on GitHub](https://github.com/Shokr/Age-of-Empires-2-API/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Run project 
+```sh
+- git clone https://github.com/Shokr/CloudInn-Task.git
+- cd CloudInn-Task
+- virtualenv -p python3.8 venv
+- source venv/bin/activate
+- pip install -r requirements.txt
+- python main.py
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Usage
+- Enter Unit Name:-  
+    - Type Age of Empires II Unit Name like Crossbowman, Skirmisher, etc...
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shokr/Age-of-Empires-2-API/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Notes
+    
+    - Python
+        - V 3.8
+    - Packages
+        - requests
+        - tabulate
+        - pytest
